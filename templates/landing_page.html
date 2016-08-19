@@ -7,6 +7,18 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='landing_page_style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='button_style.css') }}">
 
+<!-- Adding Zopim Live Chat -->
+<script>
+    if(!window.__surfly){
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+        d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+        $.src="//v2.zopim.com/?40l495kTPWFGA7JFrUDzK03KARqCPsNL";z.t=+new Date;$.
+        type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    }
+</script>
+<!--End of Zopim Live Chat Script-->
+
 <script>
 (function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
 l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
@@ -15,7 +27,7 @@ l.src='https://surfly-s1.com/surfly.js';y.parentNode.insertBefore(l,y);})
 </script>
 
 <script>
-var settings={widgetkey:'dd402bb4940b4cf3a855aaa371d11419', block_until_agent_joins: false, end_of_session_popup_url: "https://thawing-harbor-27122.herokuapp.com/survey"};
+var settings={widgetkey:'dd402bb4940b4cf3a855aaa371d11419', block_until_agent_joins: false, end_of_session_popup_url: "https://thawing-harbor-27122.herokuapp.com/survey", docked_only: true};
 window.addEventListener('DOMContentLoaded', function() {
   Surfly.init(settings, function(init) {
         if (init.success) {
