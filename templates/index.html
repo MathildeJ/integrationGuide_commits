@@ -47,6 +47,8 @@ window.addEventListener('DOMContentLoaded', function() {
       if (Surfly.currentSession) {
         // inside the session, hide the get help section
 	document.getElementById('get_help').style.visibility="hidden";
+	// inside the session, show exit button
+        document.getElementById('exit_button').style.visibility="visible";
       }
     }
    });
@@ -59,9 +61,18 @@ function landing(){
 }      	          
 </script>
 
+<script>
+function exitSession(){
+  Surfly.currentSession.end('https://thawing-harbor-27122.herokuapp.com');
+}
+</script>
+
 </head>
 
 <body>
+<div style="text-align:right;">
+      <button class="button" id="exit_button" style="visibility:hidden" onclick="exitSession()">Exit session</button>
+</div>
     <div class="brand">  <img class="img-logo" src="../static/logo4.png"/> Fantasy Bakes</div>
     <div class="address-bar">123 A Street | Some City, XY 12345 | 890.567.1234</div>
 
