@@ -42,9 +42,9 @@ window.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-function sessionStart() {
-	Surfly.session({chat_box_color: "#87cefa", videochat: false}).startLeader();
-}
+function landing(){
+  window.location.href = '/landing_page';
+}      	          
 </script>
 
 </head>
@@ -193,7 +193,7 @@ function sessionStart() {
                     <hr class="visible-xs"> 
                      <p style="text-align:center;"> Want us to help you design the cake of your dreams? Come chat with us :)</p> 
 		     <div style="text-align:center;"> 
-                     	<button class="button" id="get_help_button" onclick="sessionStart()"></button>
+                     	<button class="button" id="get_help_button" onclick="landing()"></button>
 		     </div> 
                 </div> 
             </div> 
