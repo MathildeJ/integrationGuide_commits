@@ -1,0 +1,23 @@
+  .body-style{
+        background-image: url("http://static0.thethingsimages.com/wp-content/uploads/2016/02/baking-tips-darkened.jpg");
+        background-color: white;
+        background-size: cover;
+  }
+  .text-title{
+        font-size: 32px;
+        color: #87cefa;
+        font-weight: bold;
+        font-family: 'Helvetica Neue', sans-serif;
+  }
+  form{
+        margin-top: 60px;
+        margin-left: 800px;
+  }
+ 
+  .img-logo {
+    float: none;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+

@@ -1,0 +1,19 @@
+      #exit_button {
+        background-color: #87cefa;
+        border: none;
+        color: black;
+        padding: 3px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 0 auto;
+        cursor: pointer;
+        width: 8%;
+        height: 30px;
+        font-weight: bold;
+        border-radius: 8px;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+    }

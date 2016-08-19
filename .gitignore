@@ -1,0 +1,12 @@
+*.html~
+*.py~
+dist
+build
+eggs
+parts
+bin
+var
+venv
+*.pyc
+*.DS_Store
+.DS_Store

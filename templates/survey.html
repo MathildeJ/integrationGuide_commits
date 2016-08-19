@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='form_style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='survey_style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='button_style.css')}}">
+    <title>Survey</title>
+  </head>
+
+  <body>
+         <img class="img-logo" src="../static/logo1.png"/>
+	 <form action="" method="post" id="survey" class="dark-matter">
+	    <h1>Survey
+		<span>Please give us feedback</span>
+	    </h1>
+	    <label>
+		<span>Full name :</span>
+		<input id="name" type="text" name="name" />
+	    </label>
+	    
+	    <label>
+		<span>Email address :</span>
+		<input id="email" type="email" name="email"/>
+	    </label>
+	    
+	    <label>
+		<span>Message:</span>
+		<textarea id="message" name="message"></textarea>
+	    </label>   
+	     <label>
+		<span>&nbsp;</span> 
+		<input type="button" style="background-color: #87cefa;" class="button" onclick="submitSurvey()" value="Send" /> 
+	    </label>    
+	</form>
+
+     	<script>
+	function submitSurvey(){
+		document.getElementById("survey").submit();
+		window.location.href = '/thanks_survey';
+	}
+	</script>
+  </body>
+</html>

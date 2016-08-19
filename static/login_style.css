@@ -1,0 +1,21 @@
+.background{
+	background-image: url("https://www.google.nl/imgres?imgurl=http%3A%2F%2Ffoodnetwork.sndimg.com%2Fcontent%2Fdam%2Fimages%2Ffood%2Ffullset%2F2013%2F3%2F27%2F0%2FFN_CUPCAKE-WARS-SALTED-CARAMEL_s4x3.jpg&imgrefurl=http%3A%2F%2Fwww.foodnetwork.com%2Fshows%2Fcupcake-wars%2Fcupcake-wars-season-7-winning-recipes.html&docid=kaJuTnO81rdb5M&tbnid=AYHMI5txN_pgKM%3A&w=4096&h=3072&bih=782&biw=1600&ved=0ahUKEwim7__Ho9LNAhWIDRoKHb1MBqsQMwhqKDQwNA&iact=mrc&uact=8");
+        background-color: white;
+	background-size: cover;
+  }
+  h1{
+	font-size: 32px;
+	color: #87cefa;
+	font-weight: bold;
+	font-family: 'Helvetica Neue', sans-serif;
+  }
+  form{
+	margin-top: 60px;
+	margin-left: 800px;
+  }
+ 
+  .img-logo {
+    float: none;
+    left: 0px;
+    position: absolute;
+  }

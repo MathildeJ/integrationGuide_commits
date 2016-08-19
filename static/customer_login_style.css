@@ -1,0 +1,25 @@
+  body{
+        background-image: url("../static/cake4.jpg");
+        background-color: white;
+        background-size: cover;
+  }
+
+  h1{
+        font-size: 32px;
+        color: #87cefa;
+        font-weight: bold;
+        font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  form{
+        margin-top: 250px;
+        margin-left: 1000px;
+  }
+
+  .img-logo {
+    float: none;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+

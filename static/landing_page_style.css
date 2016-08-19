@@ -1,0 +1,40 @@
+ p.test {
+            width: 550px;
+            font-size: 28px;
+            color: #87cefa;
+            font-weight: bold;
+            text-align: justify;
+            margin-top: 65px;
+            margin-left: 50px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        .button {
+            background-color: #87cefa;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 42px;
+            margin: 0 auto;
+            cursor: pointer;
+            width: 30%;
+            height: 100px;
+            font-weight: bold;
+            margin-top: 250px;
+            margin-left: 50px;
+            border-radius: 12px;
+        }
+        body {
+         background-image: url("https://images7.alphacoders.com/404/404658.jpg");
+         background-color: white;
+         background-size: cover;
+        }
+
+        .img-logo {
+         float: none;
+         left: 0px;
+         position: absolute;
+        }
+

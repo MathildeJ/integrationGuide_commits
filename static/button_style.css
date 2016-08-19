@@ -1,0 +1,34 @@
+<style>
+    button {
+	display: inline-block;
+    	height: 108px;
+    	padding: 0;
+    	margin: 0;
+    	vertical-align: top;
+    	width: 192px;
+    }
+    #get_help_button {
+	background-image: url("../static/cake_info.jpg");
+   	background-size: cover;
+    	height: 108px;  
+    	width: 192px
+    }
+    #exit_button {
+	background-color: #87cefa;
+	border: none;
+	color: black;
+	padding: 3px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+        width: 8%;
+	height: 30px;
+	margin-top: 5px;
+	margin-right: 5px;
+        font-weight: bold;
+	border-radius: 8px;
+    }
+    </style>

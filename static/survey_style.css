@@ -1,0 +1,25 @@
+  body{
+        background-image: url("https://images7.alphacoders.com/688/688381.jpg");
+        background-color: white;
+        background-size: cover;
+  }
+
+  h1{
+        font-size: 32px;
+        color: #87cefa;
+        font-weight: bold;
+        font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  form{
+        margin-top: 80px;
+	margin-left: 900px;
+  }
+
+  .img-logo {
+    float: none;
+    left: 0px;
+    position: absolute;
+  }
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='form_style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='customer_login_style.css') }}">
+    <title>Cake order</title>
+
+
+  </head>
+ 
+     <script type="text/javascript">
+    function logIn(){
+        // the username is the input text entered in the user_name element within the form 
+        var Uname = document.getElementById('user_name');
+        // the user's email is the unput text entetered in the user_email text box 
+        var Uemail = document.getElementById('user_email');
+	// The variables have to be modified in order to be passed to the QUEUE_META_DATA function
+        var namee = "\""+Uname.value+"\"";
+  	var email = "\""+Uemail.value+"\"";
+        // we store the variables so that they can be passed to the desired page 
+        sessionStorage.setItem('metaName', namee);
+        sessionStorage.setItem('metaEmail', email);
+        // redirect the user back to home
+        window.location.href="/";   
+     }
+     </script>
+
+   <body>
+      <img class="img-logo" src="../static/logo2.png" />
+      <form action="" method="post" class="dark-matter">
+        <h1>Fantasy Bakes Log in  
+       	<span>Please fill all the text fields</span>
+        </h1>
+          <label>
+		<span>Name</span>
+		<input id="user_name" type="text" name="name" />
+	    </label>
+	    
+	    <label>
+		<span>Email</span>
+		<input id="user_email" type="email" name="email"/>
+	    </label>
+            <label>
+	    	<input type="button" class="button" onclick=logIn() style="background-color: #87cefa;" value="Log in" /> 
+	    </label> 
+	</form>
+     </body>
+  </html>

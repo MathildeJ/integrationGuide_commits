@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='landing_page_style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='button_style.css') }}">
+
+
+  </head>
+
+  <body>
+        <a href="{{ url_for('index') }}">
+        <img class="img-logo" src="../static/logo1.png"/>
+        </a>
+        <button class="button" id="id_button" onclick="redirect()">Queue ID</button>
+	<div>
+   	<p class="test">You requested some help. If you are already on the phone with our company, you can pass on the ID you see on this page to the person you are talking to. They will then be able to join you on this session and guide you through the website. Once you have given this ID, you can click on it to be redirected to the home page. </p>
+	<p class="test">If you just want to get some help, you can click the button and wait for an agent to join the session and help you.</p>
+  	</div>
+	
+	<script>
+	function redirect(){
+		window.location.href = '/';
+	}		
+	</script>
+
+
+
+   </body>
+</html>
